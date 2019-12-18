@@ -1,0 +1,13 @@
+{
+	"name": "Sourcelinkset",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "copy",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=azurefac;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkJBQllMT05ERl9lMDA4ODUxOS0zMWY5LTRjMzgtYjc3ZC1kZWQwNTMyYjA4ZjAiDQp9"
+		}
+	}
+}
