@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "BabylonDF"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzurePostgreSql1_connectionString": {
+			"value": ""
+		},
+		"AzureSourcesql_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"AzuretargetSQL_connectionString": {
+			"value": ""
+		},
+		"Sourcelinkset_connectionString": {
+			"value": ""
+		},
+		"source_connectionString": {
+			"value": ""
+		},
+		"taregetlinkset_connectionString": {
+			"value": ""
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://adftest1.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
